@@ -7,6 +7,10 @@ use App\Models\Pizza;
 
 class PizzaController extends Controller
 {
+  // public function __construct() {   protect every route inside this file
+  //   $this->middleware('auth');
+  // }
+  
    public function index() {
     // $pizzas = [
     //     ['type' => 'hawian', 'base' => 'chesy'],

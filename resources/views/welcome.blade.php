@@ -6,5 +6,5 @@
     <p>best pizzas</p>
 </div>
 <p class='msg'>{{ session('msg') }}</p>
-<a href="/pizzas/create">Order a Pizza</a>
+<a href="{{route('pizzas.create')}}">Order a Pizza</a>
 @endsection
